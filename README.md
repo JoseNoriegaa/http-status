@@ -12,7 +12,7 @@
 
 ## Installation
 ```bash
-$ npm install --save @josenoriega/http-status
+$ npm install --save @josenoriegaa/http-status
 ```
 
 ### Features
@@ -20,7 +20,7 @@ $ npm install --save @josenoriega/http-status
 ### HTTP status codes
 #### Example
 ```js
-const status = require('@josenoriega/http-status');
+const status = require('@josenoriegaa/http-status');
 
 console.log(status.HTTP_204_NO_CONTENT); // output: 204
 ```
@@ -108,7 +108,7 @@ const {
   isRedirect,
   isClientError,
   isServerError,
-} = require('@josenoriega/http-status');
+} = require('@josenoriegaa/http-status');
 
 isInformational(100); // true
 isInformational(200); // false
