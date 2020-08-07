@@ -7,6 +7,7 @@
   - [HTTP status codes](#http-status-codes)
   - [Validators](#validators)
 - [Tests](#tests)
+- [License](#License)
 
 
 ## Installation
@@ -130,3 +131,6 @@ isServerError(600); // false
 $ npm install
 $ npm test
 ```
+
+# License
+[MIT](LICENSE)
