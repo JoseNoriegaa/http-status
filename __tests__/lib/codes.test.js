@@ -6,7 +6,7 @@ const {
   serverError,
 } = require('../../lib/codes');
 
-describe('Informational Response HTTP status codes', () => {
+describe('Informational HTTP response status codes', () => {
   test('It should return true if the status codes are in the range of 100 to 103', () => {
     const values = Object.values(informational);
     for (let i = 0; i < values.length; i++) {
@@ -16,7 +16,7 @@ describe('Informational Response HTTP status codes', () => {
   });
 });
 
-describe('Success response HTTP status codes', () => {
+describe('Success HTTP response status codes', () => {
   test('It should return true if the status codes are in the range of 200 to 208 including 226', () => {
     const values = Object.values(success);
     for (let i = 0; i < values.length; i++) {
@@ -26,7 +26,7 @@ describe('Success response HTTP status codes', () => {
   });
 });
 
-describe('Redirect response HTTP status codes', () => {
+describe('Redirect HTTP response status codes', () => {
   test('It should return true if the status codes are in the range of 300 to 308', () => {
     const values = Object.values(redirect);
     for (let i = 0; i < values.length; i++) {
@@ -36,7 +36,7 @@ describe('Redirect response HTTP status codes', () => {
   });
 });
 
-describe('Client error response HTTP status codes', () => {
+describe('Client error HTTP response status codes', () => {
   test('It should return true if the status codes are in the range of 400 to 418, and 421 to 426 including 428, 429, 431 and 451.', () => {
     const values = Object.values(clientError);
     for (let i = 0; i < values.length; i++) {
@@ -51,7 +51,7 @@ describe('Client error response HTTP status codes', () => {
   });
 });
 
-describe('Server error response HTTP status codes', () => {
+describe('Server error HTTP response status codes', () => {
   test('It should return true if the status codes are in the range of 500 to 511', () => {
     const values = Object.values(serverError);
     for (let i = 0; i < values.length; i++) {
