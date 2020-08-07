@@ -1,0 +1,40 @@
+{
+  "name": "@josenoriegaa/http-status",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "HTTP status codes",
+  "types": "types/index.d.ts",
+  "main": "./lib/index.js",
+  "repository": {
+    "url": "https://github.com/JoseNoriegaa/http-status",
+    "type": "git"
+  },
+  "author": {
+    "email": "josenoriega723@gmail.com",
+    "name": "Jose Noriega"
+  },
+  "scripts": {
+    "lint": "eslint lib --fix",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "codes",
+    "node",
+    "js",
+    "utils",
+    "express",
+    "rest",
+    "api"
+  ],
+  "files": [
+    "lib/"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.2.2"
+  },
+  "peerDependencies": {}
+}
