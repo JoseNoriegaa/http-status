@@ -9,6 +9,7 @@
     "url": "https://github.com/JoseNoriegaa/http-status",
     "type": "git"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": {
     "email": "josenoriega723@gmail.com",
     "name": "Jose Noriega"
