@@ -1,6 +1,6 @@
 {
   "name": "@josenoriegaa/http-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "HTTP status codes",
   "types": "types/index.d.ts",
