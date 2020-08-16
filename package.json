@@ -1,6 +1,6 @@
 {
   "name": "@josenoriegaa/http-status",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "license": "MIT",
   "description": "HTTP status codes",
   "types": "types/index.d.ts",
@@ -8,9 +8,6 @@
   "repository": {
     "url": "https://github.com/JoseNoriegaa/http-status.git",
     "type": "git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "author": "Jose Noriega <josenoriega723@gmail.com>",
   "scripts": {
